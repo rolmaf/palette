@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital@1&display=swap');
+
+.logo {
+    height: 30px;
+    width: 130px;
+    background-image: url(./img/logo.png);
+    background-size: cover;
+}
+
+body {
+    max-width: 100vw;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    grid-template-rows: 500px;
+    grid-template-areas: 
+    "side img"
+    ;
+}
+
+
+.palette-square {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+
+
+.wrapper-wrapper-card {
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 90vw;
+}
+
+.card {
+    margin: 10px 10px 10px 10px;
+}
+
+.col-lg-4 > i {
+    color: #4F5B67;
+}
+
+.card-title {
+    color: whitesmoke;
+}
+
+.card > i {
+    margin-top: 9px;
+    color: white;
+}
+
+.card-text {
+    color: white;
+}
+
+.left-sidebar {
+    width: 100%;
+    height: 100%;
+    background-color: #292F2B;
+    grid-area: side;
+}
+
+.left-sidebar > p {
+    font-family: 'Bellota', cursive;
+    color: white;
+    font-size: 18pt;
+    margin: 5%;
+}
+
+.parent-programming-img {
+    /* width: 100%;
+    height: 100%; */
+    grid-area: img;
+}
+
+.programming-img {
+    background-repeat: no-repeat;
+    background-image: url(./img/programming.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#gray {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: #F8F9FA;
+}
+
+@media all and (max-width: 1026px) {
+    .grid-container {
+        grid-template-columns: 100% 100%;
+        grid-template-rows: 200px 200px;
+        grid-template-areas: "img" "side";
+    }
+    .left-sidebar > p {
+        font-size: 17pt;
+        line-height: 34px;
+    }
+
+    html {
+        max-width: 99.9vw;
+    }
+
+    .card-wrapper {
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns:  100% 100%;
+        grid-template-rows: 200px 200px;
+        grid-template-areas: "img" "side";
+    }
+
+    .left-sidebar > p {
+        font-size: 17pt;
+        line-height: 34px;
+    }
+
+    nav {
+        max-width: 99.9vw;
+    }
+
+    html {
+        max-width: 99.9vw;
+    }
+}
+

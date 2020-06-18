@@ -1,0 +1,158 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --beige: #F0CEC5;
+    --sand: #FEFDE1;
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.beige {
+    color: var(--beige);
+}
+
+.indigo {
+    color: var(--indigo);
+}
+
+.purple {
+    color: var(--purple);
+}
+
+.pink {
+    color: var(--pink);
+}
+
+.red {
+    color: var(--red);
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.green {
+    color: var(--green);
+}
+
+.teal {
+    color: var(--teal);
+}
+
+.cyan {
+    color: var(--cyan);
+}
+
+.white {
+    color: var(--white);
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.gray-dark {
+    color: var(--gray-dark);
+}
+
+
+.light {
+    color: var(--light);
+}
+
+.sand {
+    color: var(--sand);
+}
+
+
+
+
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-indigo {
+    background-color: var(--indigo);
+}
+
+.bg-purple {
+    background-color: var(--purple);
+}
+
+.bg-pink {
+    background-color: var(--pink);
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-teal {
+    background-color: var(--teal);
+}
+
+.bg-cyan {
+    background-color: var(--cyan);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-gray {
+    background-color: var(--gray);
+}
+
+.bg-gray-dark {
+    background-color: var(--gray-dark);
+}
+
+.bg-light {
+    background-color: var(--light);
+}
+
+.bg-beige {
+    background-color: var(--beige);
+}
+
+.bg-sand {
+    background-color: var(--sand);
+}
