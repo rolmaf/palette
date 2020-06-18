@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -22,7 +24,35 @@
     --dark: #343a40;
     --beige: #F0CEC5;
     --sand: #FEFDE1;
+    --antiquewhite: antiquewhite;
+    /* --header: #1f7a1f; */
+    --aqua-header: #17497c;
+    /* --header: #41403a; */
+    /* --header #343a40; */
 }
+
+
+::selection {
+    background-color: var(--cyan);
+    color: var(--white);
+}
+
+.header {
+    background-color: var(--antiquewhite);
+}
+
+.header-title {
+    color: black;
+    font-family: 'Marck Script', cursive;  
+    font-size: 30pt!important
+}
+
+
+.left-sidebar {
+    background-color: #292F2B;
+    /* background-color: #790f1b; */
+}
+
 
 .blue {
     color: var(--blue);
